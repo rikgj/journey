@@ -1,0 +1,13 @@
+html {
+    background: linear-gradient(lime 0%, limegreen 100%);
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 30vh;
+
+    font-family: "Chakra Petch", sans-serif;
+    text-shadow: grey 2px 2px;
+}
