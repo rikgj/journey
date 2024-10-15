@@ -2,12 +2,29 @@ html {
     background: linear-gradient(lime 0%, limegreen 100%);
 }
 
-h1 {
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   box-sizing: border-box;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+p, h1 {
     color: white;
-    font-size: 4rem;
-    text-align: center;
-    margin-top: 30vh;
 
     font-family: "Chakra Petch", sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    /*margin-top: 30vh;*/
     text-shadow: grey 2px 2px;
 }
