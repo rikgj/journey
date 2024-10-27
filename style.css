@@ -1,0 +1,44 @@
+html {
+    background: linear-gradient(lime 0%, limegreen 100%);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    box-sizing: border-box;
+}
+
+h1, .header-text {
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.description-background{
+    background: grey;
+    opacity: 0.7;
+    border-radius: 15%;
+    padding: 15px 15px 15px 15px;
+    transition: all 2s;
+    border-bottom-left-radius: 45%;
+    border-top-right-radius: 45%;
+}
+
+.description-background:hover{
+    background: dimgrey;
+    padding: 25px;
+    border-radius: 15%;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+
+}
+
+
+h1 {
+    font-size: 4rem;
+    text-shadow: grey 2px 2px;
+}
